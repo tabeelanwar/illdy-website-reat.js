@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+.navbar {
+    height: 930px;
+    background-image: url('../../public/front-page-header.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+input[type='range']::-webkit-slider-thumb {
+  appearance: none;
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  background: #f18b6d;
+  cursor: pointer;
+}
+input[type='range']::-moz-range-thumb {
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  background: #f18b6d;
+  cursor: pointer;
+}
+
+.bgimg {
+  background-image: url('../../public/testiomnials-background.jpg');
+  height: 660px;
+}
+
+.pcc {
+  height: 230px; 
+  border: 1px solid white;
+  background-image: url('../../public/front-page-counter.jpg');
+  background-position: center;
+  background-size: contain;
+  background-attachment: fixed;
+  display: flex;
+  font-size: 22px;
+  font-weight: 700;
+  color: #fff; 
+  justify-content: space-around;
+  align-items: center;
+}
